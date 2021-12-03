@@ -4,7 +4,7 @@
 
 ![Screenshot](screenshot.gif)
 
-An example can be seen live [here](https://share.streamlit.io/vivien0000/causal-simulator/main/app.py) ([code](https://github.com/vivien000/causal-simulator)).
+A more advanced example can be seen live [here](https://share.streamlit.io/vivien0000/causal-simulator/main/app.py) ([code](https://github.com/vivien000/causal-simulator)).
 
 ## Installation
 
@@ -47,8 +47,7 @@ st.markdown("**Selected edges**: %s" % (", ".join(selected["edges"])))
 
 ## Usage
 
-**cytoscape(
-    elements,
+**cytoscape (elements,
     stylesheet,
     width="100%",
     height="300px",
