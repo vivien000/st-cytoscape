@@ -1,0 +1,7 @@
+st_cytoscape/frontend/node_modules/
+st_cytoscape/frontend/build/
+build/
+dist/
+st_cytoscape.egg-info/
+.vscode/
+*.txt
