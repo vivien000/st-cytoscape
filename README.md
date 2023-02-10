@@ -16,7 +16,7 @@ pip install st-cytoscape
 
 ```python
 import streamlit as st
-from st-cytoscape import cytoscape
+from st_cytoscape import cytoscape
 
 elements = [
     {"data": {"id": "X"}, "selected": True, "selectable": False},
