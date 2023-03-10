@@ -89,3 +89,9 @@ layout["alignmentConstraint"] = {"horizontal": [["X", "Y"]]}
 layout["relativePlacementConstraint"] = [{"top": "Z", "bottom": "X"}]
 layout["relativePlacementConstraint"] = [{"left": "X", "right": "Y"}]
 ```
+
+You can now similarly use the `klay` layout, using the `cytoscape-klay` add-on for Cytoscape.js - [extension](https://github.com/cytoscape/cytoscape.js-klay).  To use it simply name it in the layout:
+
+```Python
+layout = {"name": "klay"}
+```

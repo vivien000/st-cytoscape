@@ -6,8 +6,11 @@ import {
 import cytoscape from 'cytoscape';
 // @ts-ignore
 import fcose from 'cytoscape-fcose';
+// @ts-ignore
+import klay from 'cytoscape-klay';
 
 cytoscape.use(fcose);
+cytoscape.use(klay);
 
 const div = document.body.appendChild(document.createElement("div"));
 let args = '';
